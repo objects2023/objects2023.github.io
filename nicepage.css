@@ -29149,6 +29149,30 @@ li.active > a.u-button-style.u-button-style.u-active-grey-80[class*="u-border-"]
   color: #ffffff !important;
   background-color: #333333 !important;
 }
+.lines {
+  position: relative;
+  padding: 10px 0;
+}
+
+.lines:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 2px;
+  background: gray;
+}
+
+.lines:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 97%;
+  height: 2px;
+  background: gray;
+}
 a.u-link.u-hover-grey-80:hover {
   color: #333333 !important;
 }
